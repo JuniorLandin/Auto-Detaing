@@ -1,0 +1,48 @@
+.content{
+    height: 6rem;
+    margin: 0;
+}
+
+.Image{
+    width: 200px;
+    height: 5rem;
+}
+
+.links{
+
+    max-width: 1120px;
+    height: 6rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .nav{
+
+        margin-left: 5rem;
+        
+    
+        a{
+            padding: 0 0.5rem;
+            color: var(--text);
+            transition: color 0.3s;
+            padding: 0.5rem 30px;
+            font-weight: bold;
+        }
+        a:hover{
+            cursor: pointer;
+            border-bottom: 2px solid rgb(255, 12, 12);
+        }
+        a.active{
+            color: rgb(255, 12, 12);
+            background-color: white;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+        
+    }
+
+}
+
